@@ -1,0 +1,29 @@
+p{
+    color: brown;
+}
+.dark{
+
+    background-color:black ;
+     color: white;
+     padding: 30px;
+     margin: 50px;
+     width: 400px;
+}
+
+#something{
+    background-color: red;
+
+}
+#combine{
+    color: blue;
+    font-weight: bold;
+}
+
+li{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+/*the attribute selector*/
+li[width=100px]{
+    font-size: 30px;
+}

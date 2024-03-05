@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS states/pseudo classes</title>
+</head>
+<body>
+    <h1>CSS States/Pseudo classes</h1>
+    <p>SOme pseudo  classes can be used to style an element is different
+        states to
+        enhance user experience
+    </p>
+    <p>This is mostly done with links and input elements</p>
+    <a href="#">Link</a>
+    <input type="text" id="fullname"/>
+    <input type="number" name="" id="" min="7" max="10"/>
+    <button>Apply Now</button>
+    <style>
+        button{
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            padding: 10px 18px;
+            border:none;
+            transition: transform 1.0s ease-in-out;
+        }
+        button:hover{
+            cursor:pointer;
+            transform:scale(1.15);
+        }
+        #fullname:hover {
+            border-color: aqua;
+        }
+        #fullname:focus{
+            background-color: aqua;
+        }   
+        h1:focus{
+            background-color: bisque;
+        }
+        input{
+            padding:16px;
+            font-size: 20px;
+        }
+        
+            input[type="number"]{
+                color: red;
+        }
+        input[type="number"]:in-range{
+            color:green/*  */
+        }
+    </style>
+</body>
+</html>

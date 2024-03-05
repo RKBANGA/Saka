@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(171, 223, 112);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: peru;
+    font-weight: 100;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    
+}
+
+/*wildcard selector--select all elements*/
+* {
+    border: 3px solid red;
+    margin: 30px;
+}
+div,
+h3{
+    border-color: yellow;
+}
+h3{
+    padding: 10px;
+    font-weight: 100;
+    box-sizing: content-box;
+}
+/*      
+1.use exmples to show how to use extrernal/custom fonts e.t.c
+2.What are shorthands in css.
+Show how to use in adjusting border,margins and paddings*/
